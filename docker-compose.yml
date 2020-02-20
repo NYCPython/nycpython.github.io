@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  web:
+    image: ${COMPOSE_PROJECT}/web
+    container_name: ${COMPOSE_USER}.${COMPOSE_PROJECT}.web
+    ports:
+      - "${COMPOSE_IP}:5001:5001"
+      - "${COMPOSE_IP}:5002:5002"
+    volumes:
+      - .:/web
+      - ${NODE_MODULES}:/web/node_modules
+    environment:
+      - DOCKER_UID
