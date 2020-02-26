@@ -1,0 +1,13 @@
+nav.navbar {
+    border-bottom: 1px solid black;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li.navbar {
+    display: inline;
+}
