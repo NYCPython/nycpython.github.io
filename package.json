@@ -62,7 +62,7 @@
     "@rehooks/component-size": "^1.0.3",
     "downshift": "^5.0.0",
     "immutable": "^4.0.0-rc.12",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.23",
     "moment": "^2.24.0",
     "numeral": "^2.0.6",
     "prop-types": "^15.7.2",
